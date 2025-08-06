@@ -29,3 +29,6 @@ When developing programs, I start simple, build modularly, and test constantly t
 
 __Computer Science Goals__<br/>
 Computer science helps me reach my goals by giving me the tools to create structured, working systems from ideas, moving me closer to a career in tech and creative problem-solving. This project specifically expanded my thinking beyond logic to also include spatial and visual design, making me feel more confident about tackling UI/UX, 3D modeling, and graphical programming projects in the future. Learning computational graphics also opened career paths like game development, simulations, VR/AR, and data visualization, where creativity and technical skills work together to solve real-world problems.
+
+# OpenGL Kitchen Preview
+<img width="998" height="795" alt="OpenGL Kitchen Preview (1)" src="https://github.com/user-attachments/assets/57c437be-b575-4031-b5c5-9603ae8c7a14" />
