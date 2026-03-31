@@ -1,5 +1,7 @@
-# 3D-Kitchen-Scene-OpenGL-Rendering-Project
-CS 320: Software Test, Automation
+# 3D Kitchen Scene - OpenGL / C++
+An interactive 3D kitchen scene rendered in real time using OpenGL. Built in C++ with custom object modeling, texture mapping, Phong lighting, and a fully navigable camera system.
+
+<!--CS 320: Software Test, Automation
 <br/>
 <br/>(From the SNHU CS-330 Syllabus)
 <br/>Students will create realistic, interactive, three-dimensional objects through the use of application programming interface (API) libraries and best practices. Students will also develop fully formed graphic applications that meet project requirements.
@@ -17,11 +19,31 @@ This course covers the following competencies, which represent the knowledge and
 <br/>C++: The primary programming language for building and customizing the 3D scene, implementing logic for materials, lights, and object rendering.
 <br/>Custom Starter Project Files (provided by SNHU): Preconfigured templates that included the basic project structure, shader programs, and utility functions to speed up the development process.
 
-# OpenGL Kitchen Project Overview
+## OpenGL Kitchen Project Overview
 __Project Summary__<br/>
-This project showcases a 3D kitchen scene built with OpenGL. It includes custom object modeling, texture mapping, lighting using the Phong reflection model, and camera navigation controls. The scene demonstrates an understanding of 3D transformations, shader programming, and modular code design.
+This project showcases a 3D kitchen scene built with OpenGL. It includes custom object modeling, texture mapping, lighting using the Phong reflection model, and camera navigation controls. The scene demonstrates an understanding of 3D transformations, shader programming, and modular code design.-->
 
-__Designing Software__<br/>
+## Features
+
+- **3D scene rendering** — kitchen environment assembled from geometric primitives with applied textures and materials
+- **Phong lighting model** — ambient, diffuse, and specular lighting with configurable material properties per object
+- **Texture mapping** — UV-mapped textures loaded and bound via OpenGL for surface detail
+- **Interactive camera** — free-fly navigation with mouse look, WASD movement, scroll wheel speed control, and perspective/orthographic toggle
+- **Modular architecture** — scene, view, shader, and mesh logic separated into dedicated manager classes
+
+## Tools & Technologies
+
+- **C++** — core application logic
+- **OpenGL 4.6** — graphics API
+- **GLFW** — window creation and input handling
+- **GLEW** — OpenGL extension loading
+- **GLM** — matrix math and transformations
+- **Visual Studio 2022** — IDE and compiler
+
+## OpenGL Kitchen Preview
+<img width="998" height="795" alt="OpenGL Kitchen Preview (1)" src="https://github.com/user-attachments/assets/57c437be-b575-4031-b5c5-9603ae8c7a14" />
+
+<!--__Designing Software__<br/>
 When designing software, I break the project into manageable pieces and start with a clear visual idea. I focus on understanding the requirements, planning the structure, and thinking about what objects and systems are needed before building. For this project, I envisioned the story I wanted to tell first, then translated it into code step by step. It helped me strengthen my spatial reasoning and taught me to think about visual structure, lighting, and proportions, not just functionality. I built the kitchen scene by mapping out simple shapes, experimenting with textures and lights, and refining the layout through constant iteration.
 
 __Developing Programs__<br/>
@@ -29,6 +51,3 @@ When developing programs, I start simple, build modularly, and test constantly t
 
 __Computer Science Goals__<br/>
 Computer science helps me reach my goals by giving me the tools to create structured, working systems from ideas, moving me closer to a career in tech and creative problem-solving. This project specifically expanded my thinking beyond logic to also include spatial and visual design, making me feel more confident about tackling UI/UX, 3D modeling, and graphical programming projects in the future. Learning computational graphics also opened career paths like game development, simulations, VR/AR, and data visualization, where creativity and technical skills work together to solve real-world problems.
-
-# OpenGL Kitchen Preview
-<img width="998" height="795" alt="OpenGL Kitchen Preview (1)" src="https://github.com/user-attachments/assets/57c437be-b575-4031-b5c5-9603ae8c7a14" />
